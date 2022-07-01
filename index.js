@@ -89,7 +89,7 @@ async function run() {
   }
 }
 
-// Calling the run function
+// Calling
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
